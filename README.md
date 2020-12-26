@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Online Streaming Application
+
+Website designed for streaming . System consists of 4 components . Client side is designed using React and Redux, where we main state of streams using Redux. Here Redux-thunk
+'
+is used as middleware
+
+1. Client side - User is Provided an option to create update and view Streams . where user is having an option to edit the streams created by them
+
+2. Database part - Here we store all the stream details along with created user details
+
+3. Rtmp - Rtmp server is used for 2 way communication . Where client receives streams in portb 8000 and rtmp receives stream from OBS in port 1935
+
+4. OBS 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
