@@ -6,11 +6,17 @@ is used as middleware
 
 1. Client side - User is Provided an option to create update and view Streams . where user is having an option to edit the streams created by them
 
+![alt text](https://github.com/athul-narayanan/Streaming-Application/blob/master/streamin-client.png)
+
 2. Database part - Here we store all the stream details along with created user details
 
 3. Rtmp - Rtmp server is used for 2 way communication . Where client receives streams in portb 8000 and rtmp receives stream from OBS in port 1935
 
+![alt text](https://github.com/athul-narayanan/Streaming-Application/blob/master/Rtmp.png)
+
 4. OBS 
+
+![alt text](https://github.com/athul-narayanan/Streaming-Application/blob/master/OBS.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
